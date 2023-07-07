@@ -23,3 +23,7 @@
     - name: token
       ansible.builtin.debug:
         var: result.json.token
+    
+    - name: token
+      ansible.builtin.debug:
+        msg: {{ pwd }}
