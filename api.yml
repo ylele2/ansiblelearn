@@ -26,4 +26,4 @@
     
     - name: token
       ansible.builtin.debug:
-        msg: {{ pwd }}
+        msg: "{{ pwd }}"
